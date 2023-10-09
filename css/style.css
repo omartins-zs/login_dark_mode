@@ -75,3 +75,46 @@ input {
     font-size: 14px;
     transition: 0.5s;
 }
+
+input.dark-mode {
+    background-color: #424242;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+form button {
+    width: 40%;
+    /* width: 125px; */
+    border: none;
+    background-color: #63c4ff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+
+form button.dark-mode {
+    background-color: #794BC4;
+    /* background-color: #bb3f6e; */
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #43d0da;
+    /* background-color: #43dac1; */
+
+}
+
+form button.dark-mode:hover {
+    background-color: #875AD1;
+    /* background-color: #b94396; */
+}
+
+form button:focus {
+    outline: none;
+}
